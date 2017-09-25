@@ -1,3 +1,12 @@
+/* index html*/
+
+.buttons2{
+  height: 100px;
+  width: 150px; 
+  text-align: center;
+}
+
+/*registr and enter */
 .nameandsur {
 	text-align: center; 
 }
@@ -12,7 +21,7 @@
 	padding-bottom: 20px;
 }
 
-.leftandright{
+.left-right-photo{
 	width: 200px;
 }
 
@@ -21,6 +30,7 @@
 }
 
 .y-inform{
+	font-size: 19px;
 	padding-top: 35px;
 }
 
@@ -36,21 +46,6 @@
 	margin-left: 20px;
 }
 
-.marg-left{
-  margin-right: 50px;
-} 
-
-.marg-left1{
-	margin-right: 13px;
-}
-
-.marg-left2{
-  margin-right: 17px;
-}
-
-.marg-left3{
-  margin-right: 36px;
-}
 
 .yabloko_http{
 	width: 200px;
@@ -64,6 +59,11 @@
 .button{
 	font-size: 20px;
 	margin-left: 20px;
+}
+
+b.margin_top{
+	padding-bottom: 20px;
+	font-size: 19px;
 }
 
 .enter_align{
@@ -88,3 +88,13 @@
 	height: 100px;
 	margin-top: 100px;
 }
+
+b.margin-top{
+	font-size: 20px;
+}
+
+.login-password{
+  font-size: 25px;
+}
+
+/*registr and enter finish */

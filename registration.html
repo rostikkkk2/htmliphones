@@ -8,12 +8,12 @@
 	<body bgcolor="#DCDCDC">
 		<a name="top"></a>
 		<form>
-			<table frame="void" bgcolor="#D3D3D3" border="2px" width="100%" cellpadding="15px" rules="all">
+			<table frame="void" bgcolor="#D3D3D3" width="100%" cellpadding="15px" rules="all">
 				<thead>
 					<tr>
-						<th bgcolor="#708090" class="leftandright"><img src="images/loll.png" title="apple" alt="нет картинки" width="100px"></th>
+						<th bgcolor="#708090" class="left-right-photo"><img src="images/loll.png" title="apple" alt="нет картинки" width="100px"></th>
 						<th colspan="2" width="600px" bgcolor="#C0C0C0"><h1>Регистрация</h1></th>
-						<th bgcolor="#708090" class="leftandright"><img src="images/loll.png" title="apple" alt="нет картинки" width="100px"></th>
+						<th bgcolor="#708090" class="left-right-photo"><img src="images/loll.png" title="apple" alt="нет картинки" width="100px"></th>
 					</tr>
 				</thead>
 				<tbody>
@@ -26,11 +26,11 @@
 							<a href="https://promo.fortunalive.com.ua/freebet_09/index-ua.html?btag=ohm_adw_732167504_37113289886_kwd-350221551567&utm_campaign=ohm_sport&gclid=CjwKEAjwl_PNBRDcnobn1dvCk1ESJADimmVFIao8Pvg3se-0uIWp8IjhMWrPoh5YbWTf6YE70of7uRoCFjLw_wcB" title="1xbet" target="_blank"><img src="images/1x.jpg" height="150px" width="150px"></a>
 						</td>
 						<td colspan="2" align="center">
-							<h3>Введите ваше имя: <input type="text" required name="name" maxlength="15" placeholder="Имя"></h3>						
-							<h3 class="margin-top">Введите вашу фамилию: <input class="marg-left" type="text" required name="surname" maxlength="15" placeholder="Фамилия"></h3>						
-							<h3 class="margin-top">Введите ваш E-mail: <input class="marg-left1" type="email" required name="email" placeholder="email"></h3>							
-							<h3 class="margin-top">Введите ваш пароль: <input class="marg-left2" type="password" required name="password" placeholder="Пароль"></h3>						
-							<h3 class="margin-top">Повторите ваш пароль: <input class="marg-left3" type="password" required name="password" placeholder="Повторите пароль"></h3>
+							<b class="margin-top">Введите ваше имя: <input type="text" required name="name" maxlength="15" placeholder="Имя"></b><br><br>						
+							<b class="margin-top">Введите вашу фамилию: <input type="text" required name="surname" maxlength="15" placeholder="Фамилия"></b><br><br>						
+							<b class="margin-top">Введите ваш E-mail: <input type="email" required name="email" placeholder="email"></b><br><br>							
+							<b class="margin-top">Введите ваш пароль: <input type="password" required name="password" placeholder="Пароль"></b><br><br>						
+							<b class="margin-top">Повторите ваш пароль: <input type="password" required name="password" placeholder="Повторите пароль"></b>
 						</td>
 						<td bgcolor="#708090"><a href="https://www.youtube.com/watch?v=Bat0KtPmefM" target="_blank"><b>Что показала Apple на презентации iPhone X 12 сентября.</b></a><iframe class="enter_align" src="https://www.youtube.com/embed/Bat0KtPmefM" frameborder="0" allowfullscreen></iframe></td>
 					</tr>
@@ -48,23 +48,24 @@
 						<td class="youself-information" >
 							<h2 align="center">Дополнительная информация</h2>
 							<hr>
-							<h3 >С какой целью вы зашли на этот сайт?</h3>
+							<h3>С какой целью вы зашли на этот сайт?</h3>
 							<input align="left" type="radio" name="info_about_user" value="foryourself"><b>Приобрести для себя что-то.</b><br>
 							<input type="radio" name="info_about_user" value="forinfo"><b>Посмотреть информацию о товарах.</b><br>
 							<input type="radio" name="info_about_user" value="sale"><b>Сравнить цены.</b>
 							<h3>Какой фирмой вы пользуетесь?</h3>
-							<input type="checkbox" name="info_about_user" value="Samsung"><b>Samsung</b> 
-							<input type="checkbox" name="info_about_user" value="Apple"><b>Apple</b>
-							<input type="checkbox" name="info_about_user" value="Xiaomi"><b>Xiaomi</b>
-							<input type="checkbox" name="info_about_user" value="Meizu"><b>Meizu</b>
-							<input type="checkbox" name="info_about_user" value="Lenovo"><b>Lenovo</b>
+							<input type="checkbox" name="info_user_factory" value="Samsung"><b>Samsung</b> 
+							<input type="checkbox" name="info_user_factory" value="Apple"><b>Apple</b>
+							<input type="checkbox" name="info_user_factory" value="Xiaomi"><b>Xiaomi</b>
+							<input type="checkbox" name="info_user_factory" value="Meizu"><b>Meizu</b>
+							<input type="checkbox" name="info_user_factory" value="Lenovo"><b>Lenovo</b>
 							<h3>Что бы вы хотели добавить, изменить, пожелать?</h3>
 							<textarea  name="user_text" placeholder="somethin" rows="3" cols="25"></textarea>
 						</td>
 						<td class="youself-information">
 							<h2 align="center">Личная информация</h2>
 							<hr>
-							<h3 class="y-inform">Введите номер телефона: <input type="number" required name="email" placeholder="+380"></h3>
+							<br>
+							<b class="y-inform">Введите номер телефона: <input type="number" required name="num" placeholder="+380"></b><br>
 							<h3 class="margin-top">Выберите ваш город: 
 								<select name="city">
 									<option value="Dnepr">Днепр</option>
@@ -75,8 +76,10 @@
 									<option value="Dniprodzerdzinsk">Днепродзержинск</option>
 								</select>
 							</h3>
-							<h3 class="margin-top">Год рождения: <input type="date" required name="born"></h3>
-							<h3 class="margin-top">Загрузите ваше фото: </h3>
+							<br>
+							<b class="margin_top">Год рождения: <input type="date" required name="born"></b>
+							<br>
+							<h3 class="margin-top">Загрузите ваше фото: </h3><br>
 							<input class="align" type="file" name="photo">
 						</td>
 						<td bgcolor="#708090" align="center">
