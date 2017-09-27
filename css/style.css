@@ -1,19 +1,12 @@
 /* index html*/
 
-.buttons2{
+.buttons-enter-registr{
   height: 100px;
   width: 150px; 
   text-align: center;
 }
 
 /*registr and enter */
-.nameandsur {
-	text-align: center; 
-}
-
-.center{
-	margin-left: 450px;
-}
 
 .audio{
 	width: 200px;
@@ -21,52 +14,47 @@
 	padding-bottom: 20px;
 }
 
-.left-right-photo{
+.left-right-photo-registr{
 	width: 200px;
 }
 
-.youself-information{
+.youself-information-registr{
 	width: 500px;
 }
 
-.y-inform{
+.info-num-sity-born-file{
 	font-size: 19px;
 	padding-top: 35px;
 }
 
-.margin-top{
+.padding-top{
 	padding-top: 10px;
 }
 
-.align{
+.photo_file{
 	padding-bottom: 35px;
 }
 
-.align-input{
-	margin-left: 20px;
-}
-
-
-.yabloko_http{
+.yabloko_img{
 	width: 200px;
 	padding-top: 20px; 
 }
 
-.donbas{
+.news-donbas{
 	padding-top: 20px; 
 }
 
-.button{
+.buttons_reset_back_sent{
 	font-size: 20px;
 	margin-left: 20px;
 }
 
-b.margin_top{
+b.question-about-born{
 	padding-bottom: 20px;
 	font-size: 19px;
 }
 
-.enter_align{
+.enter-video{
 	width: 200px;
 	height: 200px;
 	padding-top: 20px;
@@ -78,22 +66,22 @@ b.margin_top{
 	padding-top: 73px;
 }
 
-.enter_bottom{
+.enter_button_back_registr_entr{
 	font-size: 20px;
 	margin-top: 50px;
 }
 
-.enter_yabkoli{
+.enter_yabkoli_photo{
 	width: 700px;
 	height: 100px;
 	margin-top: 100px;
 }
 
-b.margin-top{
+b.font-size-registr{
 	font-size: 20px;
 }
 
-.login-password{
+.login-password-enter{
   font-size: 25px;
 }
 
