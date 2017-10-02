@@ -1,12 +1,32 @@
-/* index html*/
+table{
+	background-color: #D3D3D3;
+}
+
+body{
+	background-color: #DCDCDC;
+}
+
+thead tr th{
+	background-color: #708090;
+}
+
+tr td{
+	background-color: #708090;
+}
+
+.color-table{
+	background-color: #D3D3D3;
+}
+
+.registr-btn-color{
+	background-color: #C0C0C0;
+}
 
 .buttons-enter-registr{
   height: 100px;
   width: 150px; 
   text-align: center;
 }
-
-/*registr and enter */
 
 .audio{
 	width: 200px;
@@ -20,6 +40,11 @@
 
 .youself-information-registr{
 	width: 500px;
+	background-color: #D3D3D3;
+}
+
+.pb{
+	padding-bottom: 40px;
 }
 
 .info-num-sity-born-file{
